@@ -72,7 +72,6 @@ export default class Generator {
       item.name = key
       return item
     }) || []
-
     this.viewsDependentMap = this.model._viewDependent
   }
 

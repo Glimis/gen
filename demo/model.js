@@ -1,8 +1,6 @@
 import { Table, Column, Model, Index, AllowNull, Default } from 'sequelize-typescript';
 import { View } from './__utils'
 
-
-
 /**
  * 车队模型
  * 

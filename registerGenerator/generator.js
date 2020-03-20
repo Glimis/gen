@@ -10,7 +10,6 @@ const generate = require('@babel/generator').default
  * 代码生成器
  * 1.获取待注入页代码
  * 2.对带注入页进行语法检测
- * 3.
  */
 exports.default = class generator {
   constructor() {

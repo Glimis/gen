@@ -24,7 +24,6 @@ const codeFeRouter = generator.parseFile('./feRouter.tpl', {
 
 fs.writeFileSync('./feRouter.js', codeFeRouter, 'utf-8')
 
-
 // 这种简易的,可以直接使用模板
 const codeBeRouter = generator.parseFile('./beRouter.tpl', {
   import: {

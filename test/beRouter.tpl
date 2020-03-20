@@ -3,7 +3,6 @@ const koaRouter = require('koa-router');
 
 const router = koaRouter()
 
-
 // tpl/router : router.get('/<%=name%>/:id', <%=name%>API.get);
 // tpl/router : router.post('/<%=name%>/:id/create', <%=name%>API.create<%=ModelName%>);
 // tpl/router : router.get('/<%=name%>/:id/update', <%=name%>API.update);
